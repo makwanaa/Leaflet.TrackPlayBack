@@ -177,6 +177,7 @@ export const Draw = L.Class.extend({
     }
     // 画船
     let targetPoint = trackpoints[trackpoints.length - 1]
+    console.log(targetPoint)
     if (this.targetOptions.useImg && this._targetImg) {
       this._drawShipImage(targetPoint)
     } else {
